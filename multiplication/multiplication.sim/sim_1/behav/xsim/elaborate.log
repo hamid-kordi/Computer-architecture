@@ -1,0 +1,7 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto e02fcbbf2ee5494f9d4af67fa6f5d342 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot varify_main_behav xil_defaultlib.varify_main -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <P> does not exist in entity <main>.  Please compare the definition of block <main> to its component declaration and its instantion to detect the mismatch. [E:/8th semester/VHDL/hw1/multiplication/multiplication.srcs/sim_1/new/varify_main.vhd:42]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit varify_main in library work failed.

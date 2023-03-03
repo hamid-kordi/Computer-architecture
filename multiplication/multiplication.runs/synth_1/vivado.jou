@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Feb 26 19:46:54 2023
+# Process ID: 10972
+# Current directory: E:/8th semester/VHDL/hw1/multiplication/multiplication.runs/synth_1
+# Command line: vivado.exe -log myadder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source myadder.tcl
+# Log file: E:/8th semester/VHDL/hw1/multiplication/multiplication.runs/synth_1/myadder.vds
+# Journal file: E:/8th semester/VHDL/hw1/multiplication/multiplication.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source myadder.tcl -notrace
