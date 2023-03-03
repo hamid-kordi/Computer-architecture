@@ -84,8 +84,16 @@ signal a5b3 : std_logic; --34
 signal a5b4 : std_logic; --35
 signal a5b5 : std_logic; --36
 
-begin
 
+component full_adder
+    port(
+        A : IN STD_LOGIC;
+        B : OUT STD_LOGIC;
+        Cin : IN STD_LOGIC;
+        Cout : out std_logic;
+        S : OUT STD_LOGIC);
+end component;
+begin
 
 a0b0 <= A(0) AND B(0); 
 a0b1 <= A(0) AND B(1);
@@ -116,7 +124,6 @@ a3b4 <= A(3) AND B(4);
 a3b5 <= A(3) AND B(5);
 
 
-
 a4b0 <= A(4) AND B(0); 
 a4b1 <= A(4) AND B(1);
 a4b2 <= A(4) AND B(2);
@@ -131,5 +138,9 @@ a5b2 <= A(5) AND B(2);
 a5b3 <= A(5) AND B(3);
 a5b4 <= A(5) AND B(4);
 a5b5 <= A(5) AND B(5);
+
+
+
+
 
 end Behavioral;
